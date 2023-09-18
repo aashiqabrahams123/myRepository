@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="Css/style.css" />
+    <!-- Character encoding and viewport settings -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page title -->
+    <title>Save for Later</title>
+  </head>
+  <body>
+    <header>
+      <!-- Header with the main title -->
+      <h1>Save for Later</h1>
+    </header>
+    <!-- Navigation section. -->
+    <nav>
+      <!-- Navigation menu with links -->
+      <ul>
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="about.html">About Me</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li>
+          <a href="saveForlater.html">Save for Later</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Main content section. -->
+    <main>
+      <!-- Save for Later section -->
+      <section id="saveForLater">
+        <!-- Section title for saved items -->
+        <h2>Save for Later</h2>
+        <ul id="savedList"></ul>
+        <!-- Saved items will be displayed here -->
+      </section>
+
+      <section>
+        <!-- Section for leaving comments -->
+        <h2>Leave a Comment</h2>
+        <form id="commentForm">
+          <!-- Comment input field -->
+          <label for="comment">Your Comment:</label>
+          <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+          <!-- Submit button for comments -->
+          <button type="submit">Submit Comment</button>
+        </form>
+      </section>
+      <section>
+        <!-- Section for liking coding languages -->
+        <h2>Like your favorite coding language.</h2>
+        <form id="likeForm">
+          <!-- Dropdown for selecting coding languages -->
+          <label for="itemToLike">Select coding language:</label>
+          <select id="itemToLike" name="itemToLike">
+            <option value="item2">HTML and CSS Tutorial</option>
+            <option value="item1">JavaScript Basics</option>
+            <option value="item3">Python Programming</option>
+            <option value="item4">Java Fundamentals</option>
+            <option value="item5">C# Programming Essentials</option>
+            <option value="item6">Data Structures in C++</option>
+          </select>
+          <!-- Like button -->
+          <button type="submit">Like</button>
+        </form>
+      </section>
+      <section>
+        <!-- Section for contacting us -->
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <!-- Name input field -->
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" />
+          <!-- Email input field -->
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" />
+          <!-- Message input field -->
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea>
+          <!-- Submit button for messages -->
+          <button type="submit">Send Message</button>
+        </form>
+      </section>
+    </main>
+    <!-- Footer section. -->
+    <footer class="footer">
+      <p>© 2023 Coding Journey. All rights reserved.</p>
+    </footer>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
+
+<!-- References -->
+<!-- https://www.w3schools.com/ -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/HTML -->
+<!-- https://youtu.be/mU6anWqZJcc -->
